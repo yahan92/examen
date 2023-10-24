@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#c7ffff">
+
+    <TextView
+        android:id="@+id/examenTituloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXAMEN"
+        android:textSize="30sp"
+
+        android:layout_marginTop="-90dp"
+        android:textColor="#FF4500"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="2"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tituloTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGENDA"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/nombreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Completo"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/noControlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No. de Control"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/agregarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/verAgendaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Agenda" />
+
+    <TextView
+        android:id="@+id/contadorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contactos en la agenda: 0"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/buscarEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Buscar contacto" />
+
+    <Button
+        android:id="@+id/buscarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
+
+
+
+
